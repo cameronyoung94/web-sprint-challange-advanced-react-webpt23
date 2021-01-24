@@ -16,10 +16,9 @@ const initialValue = {
 
 const CheckoutForm = () => {
   const [values, handleChanges, handleSubmit, showSuccessMessage] = useForm(
-    'checkoutForm',
+   'checkoutForm',
     initialValue
   )
-}
 
   return (
     <>
@@ -83,6 +82,6 @@ const CheckoutForm = () => {
       )}
     </>
   );
-};
+      }
 
 export default CheckoutForm;
